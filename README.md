@@ -2,7 +2,7 @@
 
 The detailed documentation is provided in .pdf version, inside the doc folder.
 
-[Network_structure_updated_2.pdf](https://github.com/Ska-p/InfoSec/files/11710111/Network_structure_updated_2.pdf)
+![Network_structure_updated_2.pdf](https://github.com/Ska-p/InfoSec/files/11710111/Network_structure_updated_2.pdf)
 
 Network Implementation Summary:
 
