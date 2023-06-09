@@ -14,7 +14,7 @@ SERVERS: The SIEM Splunk service is hosted in this network, accessed by the Kali
 
 DMZ1: The DMZ1 network houses a web server accessible from both internal and external networks. The IP range for this network is 192.168.173.0/24.
 
-Scalability: The LAN network is assigned the IP range 192.168.170.0/24, while the other networks use subsequent IP ranges: 192.168.171.0/24, 192.168.172.0/24, and 192.168.173.0/24 for SERVERS, CLIENTS, and DMZ1 respectively.
+Scalability: The LAN network is assigned the IP range 192.168.170.0/24, while the other networks use subsequent IP ranges: 192.168.171.0/24, 192.168.172.0/24, and 192.168.173.0/24 for CLIENTS, DMZ1, and SERVERS respectively.
 
 ## Attacks implementation
 
@@ -22,6 +22,8 @@ Scalability: The LAN network is assigned the IP range 192.168.170.0/24, while th
 + 3 Denaial of Service Attacks
 + 1 Extra Attack: RIP poisoning
 
+The script for the attacks are written by using python with [Scapy libraries](https://scapy.readthedocs.io/en/latest/introduction.html)
+
 ## Defense implementation
 
-For defensive strategies, we opted for SIEM Splunk as our Intrusion Detection System (IDS). Additionally, in order to also prevent the attacks, we implemented the Palo Alto Advanced Defense mechanism, which facilitates efficient traffic analysis and works as IDS and Intrusion Prevention System (IPS) as well. Policies and Zone protection profiles were defined by following Palo Alto documentation (https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/pan-os/9-1/pan-os-web-interface-help/pan-os-web-interface-help.pdf) and Splunk rules were implemented with Splunk Search Processing Language (SPL)
+For defensive strategies, we opted for SIEM Splunk as our Intrusion Detection System (IDS). Additionally, in order to also prevent the attacks, we implemented the Palo Alto Advanced Defense mechanism, which facilitates efficient traffic analysis and works as IDS and Intrusion Prevention System (IPS) as well. Policies and Zone protection profiles were defined by following [Palo Alto documentation](https://docs.paloaltonetworks.com/content/dam/techdocs/en_US/pdf/pan-os/9-1/pan-os-web-interface-help/pan-os-web-interface-help.pdf) and Splunk rules were implemented with [Splunk Search Processing Language (SPL)](https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/Usethesearchlanguage)
