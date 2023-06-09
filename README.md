@@ -2,6 +2,8 @@
 
 The detailed documentation is provided in .pdf version, inside the doc folder.
 
+[Network_structure_updated_2.pdf](https://github.com/Ska-p/InfoSec/files/11710111/Network_structure_updated_2.pdf)
+
 Network Implementation Summary:
 
 LAN: The local area network (LAN) uses the IP range 192.168.170.0/24 and consists of 5 routers connected via the Routing Information Protocol (RIP). A Kali Client machine is also included.
