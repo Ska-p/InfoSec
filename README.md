@@ -4,7 +4,7 @@ The detailed documentation is provided in .pdf version, inside the [doc](https:/
 
 ![Slide1](https://github.com/Ska-p/InfoSec/assets/102731992/8eed5ff8-af7b-41ef-bb1a-bb8affcb01e8)
 
-## Network Implementation Summary:
+## Network Implementation Summary
 
 LAN: The local area network (LAN) uses the IP range 192.168.170.0/24 and consists of 5 routers connected via the Routing Information Protocol (RIP). A Kali Client machine is also included.
 
@@ -22,7 +22,7 @@ Scalability: The LAN network is assigned the IP range 192.168.170.0/24, while th
 + 3 Denaial of Service Attacks
 + 1 Extra Attack: RIP poisoning
 
-The script for the attacks are written by using python with [Scapy libraries](https://scapy.readthedocs.io/en/latest/introduction.html)
+The script for the attacks are written by using python with [Scapy libraries](https://scapy.readthedocs.io/en/latest/introduction.html). Those script are very simple and easy to understand so there is no comment in the code.
 
 ## Defense implementation
 
