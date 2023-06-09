@@ -1,6 +1,6 @@
 # Project for the Information Security course, A.Y. 2022/23
 
-The detailed documentation is provided in .pdf version, inside the doc folder.
+The detailed documentation is provided in .pdf version, inside the [doc](https://github.com/Ska-p/InfoSec/tree/main/doc) folder.
 
 ![Slide1](https://github.com/Ska-p/InfoSec/assets/102731992/8eed5ff8-af7b-41ef-bb1a-bb8affcb01e8)
 
