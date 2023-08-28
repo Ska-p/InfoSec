@@ -19,7 +19,7 @@ Scalability: The LAN network is assigned the IP range 192.168.170.0/24, while th
 ## Attacks implementation
 
 + 2 Reconnaissance Attacks
-+ 3 Denaial of Service Attacks
++ 3 Denial of Service Attacks
 + 1 Extra Attack: RIP poisoning
 
 The script for the attacks are written by using python with [Scapy libraries](https://scapy.readthedocs.io/en/latest/introduction.html). Those script are very simple and easy to understand so there is no comment in the code.
